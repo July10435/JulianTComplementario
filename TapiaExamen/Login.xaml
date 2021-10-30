@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TapiaExamen.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="white" Padding="24" CornerRadius="0">
+            <Image Source="Logo_Uisrael.png" />
+        </Frame>
+        <Entry x:Name="txt_usuario" Placeholder="Usuario"></Entry>
+        <Entry x:Name="txt_contrasena" Placeholder="Contraseña" IsPassword="True" ></Entry>
+        <Button x:Name="btn_ingresar" Text="Ingresar" Clicked="btn_ingresar_Clicked"></Button>
+
+    </StackLayout>
+
+</ContentPage>

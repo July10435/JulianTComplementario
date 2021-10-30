@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TapiaExamen.Registro">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Registro"/>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Entry x:Name="txt_name" Placeholder="Nombre" Grid.Row="0" Grid.Column="0"></Entry>
+                <Entry x:Name="txt_montoini" Placeholder="Monto inicial" Grid.Row="0" Grid.Column="1"></Entry>
+                <Entry x:Name="txt_pagomen" Placeholder="Pago Mensual" Grid.Row="1" Grid.Column="0" IsReadOnly="True"></Entry>
+                <Button x:Name="btn_calcular" Text="Calcular" Clicked="btn_calcular_Clicked" Grid.Row="1" Grid.Column="1"></Button>
+            </Grid>
+            <Button x:Name="btn_registrar" Text="Guardar" Clicked="btn_registrar_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
