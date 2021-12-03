@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TapiaExamen.Registrar">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="txt_usuarioN" Placeholder="Registre Usuario"></Entry>
+            <Entry x:Name="txt_contrasenaN" Placeholder="Registre Contraseña" IsPassword="True" ></Entry>
+            <Button x:Name="btn_registrar" Text="Ingresar" Clicked="btn_registrar_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

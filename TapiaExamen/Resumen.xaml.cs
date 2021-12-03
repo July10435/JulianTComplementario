@@ -12,12 +12,18 @@ namespace TapiaExamen
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Resumen : ContentPage
     {
-        public Resumen(Double pagofinal, String nombre)
+        double _pagoFinal;
+        string _nombre;
+        string _usuarioC;
+        public Resumen(string usuarioC, double pagofinal, string nombre)
         {
             InitializeComponent();
-
-            txt_nombreUser.Text = nombre;
-            txt_total.Text = Convert.ToString(pagofinal);
+            _usuarioC = usuarioC;
+            _nombre = nombre;
+            _pagoFinal = pagofinal;
+            txt_user.Text = _usuarioC;
+            txt_name.Text = _nombre;
+            txt_pagoTotal.Text = Convert.ToString(_pagoFinal);
         }
     }
 }

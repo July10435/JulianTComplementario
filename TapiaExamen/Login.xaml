@@ -10,7 +10,7 @@
         <Entry x:Name="txt_usuario" Placeholder="Usuario"></Entry>
         <Entry x:Name="txt_contrasena" Placeholder="Contraseña" IsPassword="True" ></Entry>
         <Button x:Name="btn_ingresar" Text="Ingresar" Clicked="btn_ingresar_Clicked"></Button>
-
+        <Button x:Name="btn_registro" Text="Registrar" Clicked="btn_registro_Clicked"></Button>
     </StackLayout>
 
 </ContentPage>

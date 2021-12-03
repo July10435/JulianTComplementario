@@ -61,6 +61,7 @@
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlClient.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -85,9 +86,9 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="..\TapiaExamen\TapiaExamen.csproj">
-      <Project>{B064DCB1-79F7-46FB-8F18-77AEAC60876B}</Project>
-      <Name>TapiaExamen</Name>
+    <ProjectReference Include="..\TapiaExamen\JulianTComplementario.csproj">
+      <Project>{2BB27673-DB87-4D10-BA05-EF53FE77A6D4}</Project>
+      <Name>JulianTComplementario</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

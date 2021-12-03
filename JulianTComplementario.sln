@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TapiaExamen.Android", "Tapi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TapiaExamen.iOS", "TapiaExamen.iOS\TapiaExamen.iOS.csproj", "{3A4216C6-7757-4BBF-AAFC-57510F9280F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TapiaExamen", "TapiaExamen\TapiaExamen.csproj", "{2BB27673-DB87-4D10-BA05-EF53FE77A6D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JulianTComplementario", "TapiaExamen\JulianTComplementario.csproj", "{2BB27673-DB87-4D10-BA05-EF53FE77A6D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
